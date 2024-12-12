@@ -10,6 +10,8 @@ const counterStore = counter()
   </view>
 </template>
 
+
+<!-- sjsjsjsjssjsjsciecnw -->
 <style lang="scss" scoped>
 .counter {
   display: flex;
