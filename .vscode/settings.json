@@ -1,0 +1,8 @@
+{
+    "windsurf.enableConfig": {
+
+        "*": true
+    },
+    "editor.fontSize": 22,
+    "files.autoSave": "afterDelay"
+}
