@@ -1,7 +1,7 @@
 import { defineStore} from "pinia";
 import {ref} from 'vue'
 // 自定义存储数据
-const counter = defineStore('counter', ()=>{
+const useCounterStore = defineStore('counter', ()=>{
   // 定义响应式的数据
   const count = ref(0)
   // 定义加法
@@ -17,4 +17,4 @@ const counter = defineStore('counter', ()=>{
   return {count,increment,decrement}
 })
 
-export default counter
+export default useCounterStore

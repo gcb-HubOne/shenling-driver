@@ -1,6 +1,6 @@
 <script setup>
-import counter from '../../stores/counter'
-const counterStore = counter()
+import useCounterStore from '../../stores/counter'
+const counterStore = useCounterStore()
 </script>
 <template>
   <view class="counter">
